@@ -1,9 +1,10 @@
-import FormularioCadastro from "./components/FormularioCadastro";
-import ListaDeNotas from "./components/ListaDeNotas";
+import FormularioCadastro from "./components/FormularioCadastro/FormularioCadastro";
+import ListaDeNotas from "./components/ListaDeNotas/ListaDeNotas";
+import "./assets/App.css";
 
 function App() {
 	return (
-		<section>
+		<section className="conteudo">
 			<FormularioCadastro />
 			<ListaDeNotas />
 		</section>
